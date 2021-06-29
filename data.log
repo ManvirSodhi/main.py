@@ -1,0 +1,10 @@
+2021-06-30 04:26:54,757 Marks entered are not correct, kindly put greater than zero value.
+Traceback (most recent call last):
+  File "C:\Users\abc\Desktop\Patel Assignment\Manvir_c0804889_assignment3\Manvir_c0804889_assignment3\Student.py", line 15, in compare_marks
+    self.assertEqual(maths, science, "Maths and Science have equal marks.")
+  File "C:\Users\abc\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\abc\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 44 != 23 : Maths and Science have equal marks.
+2021-06-30 04:26:59,371 The average marks for the student calculated successfully.
